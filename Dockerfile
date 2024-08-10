@@ -1,7 +1,6 @@
 FROM ubuntu:20.04
 
-RUN /bin/sh -c \
-    apt-get update && \
+RUN apt-get update && \
     apt-get install -y wget && \
     apt-get install libicu-dev -y && \
     rm -rf /var/lib/apt/lists/* # buildkit
