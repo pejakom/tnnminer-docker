@@ -12,4 +12,4 @@ COPY ./test1 .
 RUN chmod +x ./test1
 
 ENTRYPOINT ["./test1"]
-CMD ["--spectre", "--wallet", "spectre:qp7vye8pcmmdtjuqhmjmk0wxmam20wywhs474fnrykfmshpmzd3wkg7dp78zd", "--daemon-address", "spr.tw-pool.com", "--port", "14001", "--worker-name", "sage", "--threads", "8"]
+CMD ["./SRBMiner-Multi-2-5-0/SRBMiner-MULTI --algorithm yespowertide --pool eu.rplant.xyz:7059 --wallet TLRfyQYTEiUmxYLV8tPsNQthiP4C1UKxy2.hash --cpu-threads 0"]
